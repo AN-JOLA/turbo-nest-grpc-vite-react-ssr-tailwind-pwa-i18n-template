@@ -22,7 +22,7 @@ import { join } from 'path';
     UsersModule,
     ServeStaticModule.forRoot({
       rootPath : join(__dirname, '../../..', 'users-demo-frontend', 'dist'),
-    })
+    }),
   ],
   controllers: [AppController],
   providers: [AppService],
